@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Domaci zadatak 03 - IT255</title>
+        <link href="index.css" rel="stylesheet">
+        <script src="main.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <h1>Tabela prikazuje putnicka vozila</h1>
+        <table>
+            <tr>
+                <th>Marka</th>
+                <th>Model</th>
+                <th>Snaga(ks)</th>
+                <th>Kubikaza(ccm)</th>
+            </tr>
+            <tr>
+                <td>Peugeot</td>
+                <td>508</td>
+                <td>130</td>
+                <td>1500</td>
+            </tr>
+            <tr>
+                <td>Mazda</td>
+                <td>CX-30</td>
+                <td>120</td>
+                <td>2000</td>
+            </tr>
+            <tr>
+                <td>Skoda</td>
+                <td>Superb</td>
+                <td>187</td>
+                <td>2000</td>
+            </tr>
+            <tr>
+                <td>Renault</td>
+                <td>Talisman</td>
+                <td>160</td>
+                <td>2000</td>
+            </tr>
+            
+        </table>
+        <section>
+            <div>Marka <input type="text" id="marka"></div>
+            <div>Model <input type="text" id="model"></div>
+            <div>Snaga <input type="number" id="snaga"></div>
+            <div>Kubikaza <input type="number" id="kubikaza"></div>
+        </section>
+        <div id="divdugme"><input type="button" id="dugme" value="Unesi novi auto" onclick="ubaci()"></div>
+    </body>
+</html>

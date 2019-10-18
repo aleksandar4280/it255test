@@ -1,0 +1,40 @@
+table, th, td {
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    text-align: left;
+}
+
+th, td {
+    padding: 10px;
+}
+
+table tr:nth-child(even) {
+    background-color: cadetblue;
+}
+
+section {
+    margin: 20px;
+    display: flex;
+}
+
+section div {
+    flex-grow: 1;
+}
+
+#divdugme {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#dugme {
+    width: 150px;
+    height: 30px;
+}
